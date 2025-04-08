@@ -20,5 +20,3 @@ spec:
         configMapKeyRef:
           name: demo
           key : trainer
-
-ffewkfjewnkfjewkjfkjewkfkewjfkewjfkf
