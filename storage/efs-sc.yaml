@@ -1,7 +1,7 @@
 kind: StorageClass
 apiVersion: storage.k8s.io/v1
 metadata:
-  name: efs-sc
+  name: efs-sc-roboshop
 provisioner: efs.csi.aws.com
 parameters:
   provisioningMode: efs-ap
@@ -9,5 +9,5 @@ parameters:
   directoryPerms: "700"
   gidRangeStart: "1000" # optional
   gidRangeEnd: "2000" # optional
-  basePath: "/dynamic_provisioning" # optional
+  basePath: "/roboshop" # optional
   subPathPattern: "${.PVC.namespace}/${.PVC.name}" # optional
