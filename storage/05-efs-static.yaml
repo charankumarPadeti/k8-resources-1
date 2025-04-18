@@ -26,7 +26,7 @@ spec:
   volumeName: ebs-static
   resources:
     requests:
-      storage: 5Gi
+      storage: 2Gi
 
 ---
 apiVersion: v1
